@@ -1,5 +1,5 @@
-import "~/styles/test.css";
+import "~/styles/static.css";
 
-export default function() {
-	return <h1>Test page</h1>;
+export default function Home() {
+	return <h1>Test static page</h1>;
 }
