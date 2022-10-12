@@ -13,7 +13,8 @@ import {
   Title,
 } from "solid-start";
 
-const Home = lazy(() => import("./pages/Home"));
+// import Home from "./pages/Home"; // this works
+const Home = lazy(() => import("./pages/Home")); // this doesn't
 
 export default function Root() {
   return (
